@@ -1,1 +1,1 @@
-* this is made for nexus tutrial
+* this is made for Nexus Front-End Boot Camp 
