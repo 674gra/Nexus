@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 .Container{
     border: 1px solid white;
     padding: 1rem;
@@ -7,7 +10,12 @@
     width: fit-content;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    font-family: "Bebas Neue";
    
+}
+.Container h1{
+    border-bottom: 1px solid white;
+    font-size: 3rem;
 }
 
 .vid{
@@ -16,7 +24,9 @@
     border-radius: 50rem;
 }
 .p{
-    color: rgb(168, 168, 168);
+    color: rgb(149, 148, 151);
+     font-family: "Tenor Sans";
+     line-height: 1.5;
 }
 
 .bt{

@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 .container{
     color: white;
-    border-top: 1px solid grey;
     margin: 2em;
+}
+.container h1{
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 2rem ;
+
+}
+.container p{
+    font-family: "Tenor Sans";
+    line-height: 1.6;
+}
+.im{
+    width: 100%;
+    border-radius: 2em;
+    height: 20rem;
+}
+
+.div{
+    display: grid;
+    grid-column: 300px,300px,300px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    align-items: center;
+    gap: 10rem;
+    
+}
+
+.p{
+    max-width: 300px;
+    border: 1px solid rgb(161, 159, 157);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 15px 1px 30px rgba(27, 156, 176, 0.573);
+    transition: transform 1s ease-in;
+}   
+.p:hover{
+    transform: scale(1.2);
+    transition: ease, 1s;
+
 }
