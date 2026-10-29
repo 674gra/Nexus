@@ -5,6 +5,19 @@
     border-radius: 2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
+    max-width: 400px;
+    transition: transform, ease,1s;
+}
+
+.container:hover{
+    transform: scale(1.07);
+    transition: ease,1s;
+}
+.container a{
+    color: rgb(132, 132, 132);
+}
+.container li{
+    border-bottom: 1px solid white;
 }
 
 .imgdiv{

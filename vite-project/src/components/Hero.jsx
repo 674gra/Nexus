@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './Hero.module.css'
+import Styles from '../styles/Hero.module.css'
 import vid from '/Video.mp4'
 function Hero() {
   return (

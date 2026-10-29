@@ -1,7 +1,7 @@
 import React from 'react'
 import { skills } from '../data'
 import SkillsCard from './SkillsCard'
-import styles from './Skills.module.css'
+import styles from '../styles/Skills.module.css'
 function Skills() {
   return (
    <>

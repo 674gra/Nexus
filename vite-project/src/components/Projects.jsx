@@ -1,7 +1,7 @@
 import React from 'react'
 import { projects } from '../data'
 import ProjectsCard from './ProjectsCard'
-import styles from './Projects.module.css'
+import styles from '../styles/Projects.module.css'
 function Projects() {
   return (
     <>

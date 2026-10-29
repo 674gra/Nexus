@@ -1,19 +1,34 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.navs{
     display: flex;
     justify-content:flex-end;
+    align-items: center;
     gap: 1rem;
-    margin-right: 5rem;
+  
+
+
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     border-bottom: 1px solid gray;
     margin: 2em;
+    /* position:sticky;
+    top: 0;
+     */
 
+}
 
+.log{
+    color: aliceblue;
+    font-family: "Black Ops One" , sans-serif;
 }
 
 .container a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-bottom: 1em;
-    padding: 0.1rem;
+ 
     border: 1px solid transparent;
     
     
