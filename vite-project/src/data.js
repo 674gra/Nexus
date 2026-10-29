@@ -1,3 +1,4 @@
+import im from './assets/Gur.png'
 export const skills=[
     {id:1, name:'HTML5',icon:'fa-brands fa-html5'},
     {id:2,name:'CSS3',icon:'fa-brands fa-css3'},
@@ -14,6 +15,7 @@ export const projects=[
         title:'Guresha',
         description:'A web-app to browse and order food',
         tech:['HTML5','CSS3','js'],
+        image:im,
         live:'https://guresha.vercel.app/',
         github:'https://github.com/674gra/Guresha'
 
