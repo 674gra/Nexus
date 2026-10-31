@@ -10,7 +10,7 @@
     /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     overflow: hidden;
     max-width: 400px;
-    transition: transform, ease,1s;
+    transition: transform 1s ease;
 }
 
 .container:hover{
