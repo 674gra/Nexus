@@ -16,7 +16,6 @@
   transform:scale(1.2);
   background-color: white;
   color: black;
-  transition:ease, 1s;
 }
 .container i{
     font-size: 3rem;
