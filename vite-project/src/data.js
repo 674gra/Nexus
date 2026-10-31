@@ -37,7 +37,7 @@ export const projects=[
     {
         id:3,
         title:'Finset',
-        description:'a dashboard ui/ux design of finset',
+        description:'a dashboard ui design of finset',
         tech:['figma'],
         image:fg,
         live:'https://www.figma.com/design/MMlBlRUZQicC6jME036oYQ/Untitled?node-id=0-1&p=f&t=bvpsm7376ZORAKhd-0',
