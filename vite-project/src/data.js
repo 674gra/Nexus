@@ -1,4 +1,6 @@
 import im from './assets/Gur.png'
+import ms from './assets/misrak.png'
+import fg from './assets/fig.png'
 export const skills=[
     {id:1, name:'HTML5',icon:'fa-brands fa-html5'},
     {id:2,name:'CSS3',icon:'fa-brands fa-css3'},
@@ -17,7 +19,30 @@ export const projects=[
         tech:['HTML5','CSS3','js'],
         image:im,
         live:'https://guresha.vercel.app/',
-        github:'https://github.com/674gra/Guresha'
+        github:'https://github.com/674gra/Guresha',
+        banner:'Front-end'
+
+    },
+    {
+        id:2,
+        title:'Misrak University',
+        description:'A university website to get informatio',
+        tech:['HTML5','CSS3','js'],
+        image:ms,
+        live:'https://misrakuniversity.netlify.app/',
+        github:'none',
+         banner:'Front-end'
+
+    },
+    {
+        id:3,
+        title:'Finset',
+        description:'a dashboard ui/ux design of finset',
+        tech:['figma'],
+        image:fg,
+        live:'https://www.figma.com/design/MMlBlRUZQicC6jME036oYQ/Untitled?node-id=0-1&p=f&t=bvpsm7376ZORAKhd-0',
+        github:'none',
+        banner:'UI/UX'
 
     }
 ]
