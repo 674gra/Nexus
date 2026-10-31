@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
     <h1 className={styles.h1}>Projects</h1>
-    <div className={styles.container}>
+    <div className={styles.container} id='projects'>
       {projects.map(item=>(
         <ProjectsCard key={item.id} projects={item}/>
       ))}

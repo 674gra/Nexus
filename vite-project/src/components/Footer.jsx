@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
         <h1 className={styles.h1}>Contact</h1>
-        <div className={styles.container}>
+        <div className={styles.container} id='footer'>
            
             <div className={styles.div}>
             <p><img src={ic}></img> <span>amanuelfekadu37@gmail.com</span></p>

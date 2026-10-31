@@ -3,7 +3,7 @@ import Styles from '../styles/Hero.module.css'
 import vid from '/Video.mp4'
 function Hero() {
   return (
-    <div className={Styles.Container}>
+    <div className={Styles.Container} id='home'>
         <div className={Styles.div}>
             <h1>Welcome to my corner of the web</h1>
             <p className={Styles.p}>I’m a student developer turning classroom 

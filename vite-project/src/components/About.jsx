@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css'
 import im from '../assets/ft.png'
 function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='about'>
         <h1>About</h1>
 
         <div className={styles.div}>

@@ -6,7 +6,7 @@ function Skills() {
   return (
    <>
    <h1 className={styles.h1}>Skills</h1>
-   <div className={styles.container}>
+   <div className={styles.container} id='skills'>
     
    {skills.map((item,id)=>(
         <SkillsCard key={id} name={item.name} icon={item.icon}/>
