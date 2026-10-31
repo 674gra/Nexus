@@ -54,6 +54,5 @@ body {
 }   
 .p:hover{
     transform: scale(1.2);
-    transition: ease, 1s;
 
 }
