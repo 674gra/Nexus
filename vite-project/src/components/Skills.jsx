@@ -5,7 +5,7 @@ import styles from '../styles/Skills.module.css'
 function Skills() {
   return (
    <>
-   <h1 className={styles.h1}>Skills</h1>
+   <h1 className={styles.h1}>SKILLS</h1>
    <div className={styles.container} id='skills'>
     
    {skills.map((item,id)=>(

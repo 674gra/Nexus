@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 .container{
-    color: white;
+    color: rgb(55, 52, 52);
     margin: 2em;
     
 }
@@ -53,6 +53,8 @@ body {
    
 }   
 .p:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
+    background-color: black;
+    color: aliceblue;
 
 }

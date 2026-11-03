@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from '../styles/Hero.module.css'
-import vid from '/Video.mp4'
+import vid from '/afr.mp4'
 function Hero() {
   return (
     <div className={Styles.Container} id='home'>
@@ -11,7 +11,7 @@ function Hero() {
 
             </p>
 
-            <button className={Styles.bt}>See Projects</button>
+            <button className={Styles.bt}> <a href="#projects">See Projects</a></button>
         </div>
         
         <video src={vid} className={Styles.vid} autoPlay loop muted playsInline></video>

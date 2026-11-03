@@ -12,13 +12,20 @@ function ProjectsCard({projects}) {
         </div>
         <div>
             <ul>
-                <li><h3>title: {title}</h3></li>
-               <li><h3>description: <span>{description}</span></h3></li>
-               <li><h3 className={styles.h3}>tech: {tech.map((ele,i)=>(
-                <span key={i} className={styles.tech}>{ele} </span>
+                <li><h3>{title}</h3></li>
+               <li><h3><span>{description}</span></h3></li>
+               <li><h3 className={styles.h3}>{tech.map((ele,i)=>(
+                <span key={i} className={styles.tech}> {ele} </span>
                ))}</h3></li>
-                <li><h3>live-link: <a href={live} target="_blank" rel="noopener noreferrer">{live}</a></h3></li>
-                <li><h3>github: <a href={github} target="_blank" rel="noopener noreferrer">{github}</a></h3> </li>
+
+            
+                    <div className={styles.lis}>
+                        <a href={live} target="_blank" rel="noopener noreferrer"> <button className={styles.bt}><img src="/iccc.png" alt=""/>visit</button></a>
+                       {github&&<a href={github} target="_blank" rel="noopener noreferrer"> <button className={styles.bt}> <img src="/gg.gif" alt="" className={styles.gg}/> get code</button></a>}  
+
+                    </div>
+            
+            
             </ul>
         </div>
 

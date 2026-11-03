@@ -5,7 +5,7 @@
     border: 1px solid white;
     padding: 1rem;
     border-radius: 2rem;
-    color: white;
+    color: rgb(110, 64, 35);
     display: grid;   
     width: fit-content;
     grid-template-columns: 1fr 1fr;
@@ -21,10 +21,10 @@
 .vid{
     height: auto;
     max-width: 100%;
-    border-radius: 50rem;
+    border-radius: 1rem;
 }
 .p{
-    color: rgb(149, 148, 151);
+    color: rgb(28, 28, 28);
      font-family: "Tenor Sans";
      line-height: 1.5;
 }

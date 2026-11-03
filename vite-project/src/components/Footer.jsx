@@ -5,7 +5,7 @@ import styles from '../styles/Contact.module.css'
 function Footer() {
   return (
     <>
-        <h1 className={styles.h1}>Contact</h1>
+        <h1 className={styles.h1}>CONTACT</h1>
         <div className={styles.container} id='footer'>
            
             <div className={styles.div}>

@@ -9,11 +9,11 @@ function NavBar() {
         <h2>Amanuel Fekadu</h2>
       </div>
       <div className={styles.navs}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#footer">Contact</a>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#footer">CONTACTS</a>
         </div>
      </nav>
     </>

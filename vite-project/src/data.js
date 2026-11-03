@@ -26,7 +26,7 @@ export const projects=[
     {
         id:2,
         title:'Misrak University',
-        description:'A university website to get informatio',
+        description:'A university website to get information',
         tech:['HTML5','CSS3','js'],
         image:ms,
         live:'https://misrakuniversity.netlify.app/',
@@ -41,7 +41,7 @@ export const projects=[
         tech:['figma'],
         image:fg,
         live:'https://www.figma.com/design/MMlBlRUZQicC6jME036oYQ/Untitled?node-id=0-1&p=f&t=bvpsm7376ZORAKhd-0',
-        github:'none',
+
         banner:'UI/UX'
 
     }
