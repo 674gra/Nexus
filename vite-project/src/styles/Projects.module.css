@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .container{
     color: white;
     display: grid;
@@ -7,6 +9,8 @@
 }
 
 .h1{
+    font-family: "Bebas Neue";
+
         color: rgb(55, 52, 52);
     font-size: 3rem;
     border-bottom: 1px solid white;
