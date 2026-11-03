@@ -8,7 +8,8 @@
     color: rgb(110, 64, 35);
     display: grid;   
     width: fit-content;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 5EM;
     align-items: center;
     font-family: "Bebas Neue";
    
