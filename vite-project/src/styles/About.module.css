@@ -47,14 +47,13 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 15px 1px 30px rgba(27, 156, 176, 0.573);
-    transition: transform 1s ease-in;
+    transition: transform 1s ease;
     margin-left: 5em;
     
    
 }   
 .p:hover{
     transform: scale(1.05);
-    background-color: black;
-    color: aliceblue;
+    
 
 }
