@@ -1,28 +1,35 @@
 import React from 'react'
-import ic from '../assets/gmail.gif'
-import ph from '../assets/phone.gif'
+import ic from '/fly.gif'
+import ph from '/ph.gif'
 import styles from '../styles/Contact.module.css'
 function Footer() {
   return (
     <>
-        <h1 className={styles.h1}>CONTACT</h1>
         <div className={styles.container} id='footer'>
            
             <div className={styles.div}>
-            <p><img src={ic}></img> <span>amanuelfekadu37@gmail.com</span></p>
-            <p><img src={ph} alt="" /> <span>+251991210819</span></p>
+                <h5>CONTACTS</h5>
+                <p><img src={ic}></img> <span>amanuelfekadu37@gmail.com</span></p>
+                <p><img src={ph} alt="" /> <span>+251991210819</span></p>
             </div>
-            <div>
+            <div className={styles.div}>
+                <h5>COMPANY</h5>
                 <p>home</p>
                 <p>about</p>
                 <p>skills</p>
                 <p>projects</p>
             </div>
-    
-            <div>
-                <p>&copy; 2026 Amanuel Fekadu All rights reserved</p>
+            <div className={styles.div}>
+                <h5>SERVICE</h5>
+                <p>UI/UX</p>
+                <p>Front-end web development</p>
+                <p>Branding</p>
             </div>
+    
+            
         </div>
+                <p  className={styles.p}>&copy; 2026 Amanuel Fekadu All rights reserved</p>
+
         </>
   )
 }

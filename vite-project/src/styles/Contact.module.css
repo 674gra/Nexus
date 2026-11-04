@@ -3,30 +3,45 @@
 
 .container{
    color: rgb(18, 19, 19);
-    display: flex;
-    justify-content: space-around;
+   
     font-family: "Bebas Neue";
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2em;
+    align-items: start;
+    
+
     
 }
 
-.h1{
+.container h5{
     font-family: "Bebas Neue";
     
-    border-bottom: 1px solid white;
-    border-bottom-left-radius: 2rem;
-        color: rgb(55, 52, 52);
-     margin-left: 0.8em;
+   
 }
 .div{
     display: flex;
     flex-direction: column;
+    margin-top: 5em;
+    margin-left: 10em;
+    
 }
 .div img{
     width: 40px;
     
 }
 .div p{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+   
+    font-family: 'Lexend';
+
+    font-variation-settings: 'wght' 200;
+    font-weight: 100;
+}
+
+
+.p{
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 1em;
 }
