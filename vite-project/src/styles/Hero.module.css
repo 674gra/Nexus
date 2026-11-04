@@ -5,7 +5,7 @@
     border: 1px solid white;
     padding: 1rem;
     border-radius: 2rem;
-    color: rgb(110, 64, 35);
+    color: rgb(55, 52, 52);
     display: grid;   
     width: fit-content;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));

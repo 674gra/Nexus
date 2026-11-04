@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .navs{
     display: flex;
     justify-content:flex-end;
@@ -21,8 +23,8 @@
 }
 
 .log{
-    color: rgb(10, 11, 12);
-    font-family: "Black Ops One" , sans-serif;
+   color: rgb(55, 52, 52);
+    font-family:'Bebas Neue', "Black Ops One" , sans-serif;
 }
 
 .container a{
