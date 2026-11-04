@@ -40,6 +40,9 @@
     width: 40%;
     margin-top: 5rem;
 }
+.bt a{
+    color: black;
+}
 
 .bt:hover{
     background-color: aliceblue;
