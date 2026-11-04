@@ -14,16 +14,15 @@ function Footer() {
             </div>
             <div className={styles.div}>
                 <h5>COMPANY</h5>
-                <p>home</p>
-                <p>about</p>
-                <p>skills</p>
-                <p>projects</p>
+                <p>HOME</p>
+                <p>ABOUT</p>
+                <p>SKILLS</p>
+                <p>PROJECTS</p>
             </div>
             <div className={styles.div}>
                 <h5>SERVICE</h5>
                 <p>UI/UX</p>
                 <p>Front-end web development</p>
-                <p>Branding</p>
             </div>
     
             
