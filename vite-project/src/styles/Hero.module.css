@@ -17,6 +17,7 @@
 .Container h1{
     border-bottom: 1px solid white;
     font-size: 3rem;
+    text-align: center;
 }
 
 .vid{
@@ -28,6 +29,7 @@
     color: rgb(28, 28, 28);
      font-family: "Tenor Sans";
      line-height: 1.5;
+     text-align: center;
 }
 
 .bt{

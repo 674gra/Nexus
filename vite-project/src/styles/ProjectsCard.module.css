@@ -9,12 +9,14 @@
     font-family: 'Lexend';
     /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     overflow: hidden;
-    max-width: 400px;
+    max-width: 320px;
     transition: transform 1s ease;
     font-size:0.8em;
     font-variation-settings: 'wght' 300;
     font-weight: 300;
-    margin-left: 3rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .container:hover{

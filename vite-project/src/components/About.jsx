@@ -11,9 +11,9 @@ function About() {
                    <p className={styles.p}>I am a computer science student and an aspiring full-stack developer
             currently working on my skills regarding the front-end side of development. As of now,
             I am working on React and NextJs to build a clean, modern and fast product.
-            Taking one step to achieve my goal, i am now enrolled to the nexus
-            Advanced Front-End boot camp where i am currently 
-            learning react.        </p>
+            Taking one step to achieve my goal, I am now enrolled to the Nexus
+            Advanced Front-End boot camp where I am currently 
+            learning React.        </p>
         </div>
  
     </div>

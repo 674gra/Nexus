@@ -1,6 +1,7 @@
 import React from 'react'
 import ic from '/fly.gif'
-import ph from '/ph.gif'
+import ph from '/git.gif'
+import lh from '/link.gif'
 import styles from '../styles/Contact.module.css'
 function Footer() {
   return (
@@ -9,8 +10,10 @@ function Footer() {
            
             <div className={styles.div}>
                 <h5>CONTACTS</h5>
-                <p><img src={ic}></img> <span>amanuelfekadu37@gmail.com</span></p>
-                <p><img src={ph} alt="" /> <span>+251991210819</span></p>
+               <a href="https://t.me/himothiy"> <p><img src={ic}></img> </p></a>
+               <a href="https://github.com/AMANUEL-FEKADU"> <p><img src={ph} alt="" /> </p></a>
+               <a href="https://www.linkedin.com/"> <p><img src={lh} alt="" /> </p></a>
+            
             </div>
             <div className={styles.div}>
                 <h5>COMPANY</h5>
